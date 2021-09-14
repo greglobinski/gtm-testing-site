@@ -6,14 +6,14 @@
 
 // You can delete this file if you're not using it
 
-export const onInitialClientRender = () => {
-  const gtmScript = document.createElement("script")
-  gtmScript.src = "https://www.googletagmanager.com/gtm.js?id=GTM-KDHT88T"
-  gtmScript.onload = function () {
-    // init GTM
-    const dataLayer = window.dataLayer || []
-    dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" })
-  }
+// export const onInitialClientRender = () => {
+//   const gtmScript = document.createElement("script")
+//   gtmScript.src = "https://www.googletagmanager.com/gtm.js?id=GTM-KDHT88T"
+//   gtmScript.onload = function () {
+//     // init GTM
+//     const dataLayer = window.dataLayer || []
+//     dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" })
+//   }
 
-  document.head.appendChild(gtmScript)
-}
+//   document.head.appendChild(gtmScript)
+// }
