@@ -8,8 +8,7 @@
 
 export const onInitialClientRender = () => {
   const gtmScript = document.createElement("script")
-  gtmScript.src =
-    "https://www.googletagmanager.com/gtm.js?id=GTM-KDHT88T&gtm_debug=x"
+  gtmScript.src = "https://www.googletagmanager.com/gtm.js?id=GTM-KDHT88T"
   gtmScript.onload = function () {
     // init GTM
     const dataLayer = window.dataLayer || []
